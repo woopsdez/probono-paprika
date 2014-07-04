@@ -13,13 +13,14 @@
   color: #B2B2B2;
 }
 .quote blockquote {
+  text-align: left;
   padding: 0 60px;
   background-image: url(../images/quote-head.png), url(../images/quote-foot.png);
   background-repeat: no-repeat, no-repeat;
   background-position: top left,
                          top right;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1200px) {
   .quote blockquote {
     display: block;
     margin-left: auto;
@@ -34,7 +35,7 @@
 }
 @media screen and (min-width: 768px) {
   .about {
-    min-height: 540px;
+    min-height: 600px;
   }
 }
 .about .container {
@@ -44,5 +45,25 @@
   padding: 20px;
   font-size: 18px;
   color: #FFFFFF;
-  line-height: 2;
+}
+.howtouse .target {
+  width: 50%;
+  float: left;
+  padding: 20px;
+  color: #5E8061;
+  font-size: 15px;
+}
+.howtouse .target span {
+  display: block;
+  margin-bottom: 20px;
+  height: 200px;
+  border: 8px solid #FFFFFF;
+  -webkit-border-radius: 200%;
+  border-radius: 200%;
+}
+.howtouse .worker {
+  background: #B8E986;
+}
+.howtouse .client {
+  background: #F8E71C;
 }

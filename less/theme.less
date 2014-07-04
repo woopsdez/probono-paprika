@@ -21,6 +21,7 @@
 
 .quote{
   blockquote{
+    text-align: left;
     padding: 0 60px;
     background-image:    url(../images/quote-head.png),
                          url(../images/quote-foot.png);
@@ -28,7 +29,7 @@
                          no-repeat;
     background-position: top left,
                          top right;
-    @media screen and (min-width: @screen-sm-min) {
+    @media screen and (min-width: @screen-lg-min) {
       .center-block();
       width: 87%;
       text-align: center;
@@ -40,7 +41,7 @@
   min-height: 800px;
   background: #FF796B url('../images/browser.png') no-repeat bottom right;
   @media screen and (min-width: @screen-sm-min) {
-    min-height: 540px;
+    min-height: 600px;
   }
   .container{
     padding: 30px;
@@ -48,7 +49,30 @@
       padding: 20px;
       font-size: @font-size-base + 4;
       color: #FFFFFF;
-      line-height: 2;
     }
+  }
+}
+
+.howtouse{
+  .target{
+    width: 50%;
+    float: left;
+    padding: 20px;
+    color: #5E8061;
+    font-size: 15px;
+    span{
+      display: block;
+      margin-bottom: 20px;
+      height: 200px;
+      border: 8px solid #FFFFFF;
+      -webkit-border-radius: 200%;
+              border-radius: 200%;
+    }
+  }
+  .worker{
+    background: #B8E986;
+  }
+  .client{
+    background: #F8E71C;
   }
 }
