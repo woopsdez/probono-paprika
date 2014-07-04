@@ -54,25 +54,31 @@
 }
 
 .howtouse{
-  .target{
+  .worker,.client{
     width: 50%;
     float: left;
     padding: 20px;
     color: #5E8061;
     font-size: 15px;
-    span{
-      display: block;
-      margin-bottom: 20px;
-      height: 200px;
-      border: 8px solid #FFFFFF;
-      -webkit-border-radius: 200%;
-              border-radius: 200%;
-    }
   }
   .worker{
     background: #B8E986;
   }
   .client{
     background: #F8E71C;
+  }
+  .target{
+    width: 200px;
+    min-height: 400px;
+    margin-top: 40px;
+    .center-block();
+    span{
+      display: block;
+      margin-bottom: 20px;
+      height: 200px;
+      border: 8px solid #FFFFFF;
+      -webkit-border-radius: 100%;
+              border-radius: 100%;
+    }
   }
 }
