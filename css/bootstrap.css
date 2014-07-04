@@ -1270,7 +1270,6 @@ blockquote {
   padding: 10px 20px;
   margin: 0 0 20px;
   font-size: 17.5px;
-  border-left: 5px solid #eeeeee;
 }
 blockquote p:last-child,
 blockquote ul:last-child,
@@ -3824,11 +3823,9 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     margin-left: 0;
   }
 }
-.container > .navbar-header .navbar-nav,
-.container-fluid > .navbar-header .navbar-nav,
-.container > .navbar-collapse .navbar-nav,
-.container-fluid > .navbar-collapse .navbar-nav {
-  margin-top: 20px;
+.container .navbar-nav,
+.container-fluid .navbar-nav {
+  padding-top: 20px;
 }
 .navbar-static-top {
   z-index: 1000;
