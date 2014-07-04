@@ -18,3 +18,37 @@
     color: #B2B2B2;
   }
 }
+
+.quote{
+  blockquote{
+    padding: 0 60px;
+    background-image:    url(../images/quote-head.png),
+                         url(../images/quote-foot.png);
+    background-repeat:   no-repeat,
+                         no-repeat;
+    background-position: top left,
+                         top right;
+    @media screen and (min-width: @screen-sm-min) {
+      .center-block();
+      width: 87%;
+      text-align: center;
+    }
+  }
+}
+
+.about{
+  min-height: 800px;
+  background: #FF796B url('../images/browser.png') no-repeat bottom right;
+  @media screen and (min-width: @screen-sm-min) {
+    min-height: 540px;
+  }
+  .container{
+    padding: 30px;
+    p{
+      padding: 20px;
+      font-size: @font-size-base + 4;
+      color: #FFFFFF;
+      line-height: 2;
+    }
+  }
+}
