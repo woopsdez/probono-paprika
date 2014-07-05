@@ -61,31 +61,78 @@
   background: #F8E71C;
 }
 .howtouse .target {
-  width: 200px;
   min-height: 400px;
   margin-top: 40px;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
-.howtouse .target span {
-  display: block;
+@media screen and (min-width: 768px) {
+  .howtouse .target {
+    width: 50%;
+  }
+}
+.howtouse .target .oval {
+  position: relative;
+  width: 150px;
+  height: 150px;
   margin-bottom: 20px;
-  height: 200px;
   border: 8px solid #FFFFFF;
   -webkit-border-radius: 100%;
   border-radius: 100%;
 }
-.entry {
-  background: #FFB300;
+@media screen and (min-width: 768px) {
+  .howtouse .target .oval {
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
-.entry .container {
-  padding: 100px;
-}
-.entry .container form {
-  width: 50%;
-  margin-top: 40px;
+.howtouse .target .oval span {
+  width: 6em;
+  margin-top: 45px;
   display: block;
   margin-left: auto;
   margin-right: auto;
+  font-weight: bold;
+  line-height: 1.4;
+  text-align: center;
+}
+.entry:before,
+.entry:after {
+  content: " ";
+  display: table;
+}
+.entry:after {
+  clear: both;
+}
+.entry .container {
+  margin-top: 40px;
+}
+.contact {
+  color: #FFF;
+  margin-top: 60px;
+  padding: 40px;
+  background: #222222;
+  border-bottom: 1px solid #000;
+}
+.contact label {
+  padding: 0;
+}
+.contact label:before {
+  content: "*";
+  color: red;
+  padding-right: 3px;
+}
+.contact textarea {
+  width: 100%;
+  margin: 10px auto;
+}
+footer {
+  padding: 40px;
+  color: #FFF;
+  background: #222222;
+  border-top: 1px solid #333333;
 }

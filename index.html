@@ -67,13 +67,17 @@
       <section id="howtouse" class="howtouse">
         <div class="worker">
           <div class="target">
-            <span>プロボノしたい人</span>
+            <div class="oval">
+              <span>プロボノ<br>したい人</span>
+            </div>
             <p>フォームから必要な情報を入力しておくだけ。あとはページを見てくれた人から声がかかるのを気長に待つのみです。</p>
           </div>
         </div>
         <div class="client">
           <div class="target">
-            <span>プロボノされたい人</span>
+            <div class="oval">
+              <span>プロボノ<br>されたい人</span>
+            </div>
             <p>このページに表示されている人の中から興味のある人へメールやFacebookなどで連絡するだけ。</p>
           </div>
         </div>
@@ -81,23 +85,69 @@
 
       <section id="entry" class="entry">
         <div class="container">
-          <form action="" method="POST" class="form-horizontal" role="form">
-            <div class="form-group">
-              <legend>表明する</legend>
+          <h2>プロボノしたい人</h2>
+          <div class="row">
+            <div class="col-sm-6 col-md-4">
+              <div class="thumbnail">
+                <img src="http://lorempixel.com/400/300/people/1" class="img-responsive" alt="">
+                <div class="caption">
+                  <h3>イシジマ ミキ</h3>
+                  <p>Lorem ipsum Adipisicing ea cillum voluptate eu enim ad in Ut officia in aute adipisicing reprehenderit officia eiusmod dolor elit eiusmod minim tempor commodo nostrud sed ullamco adipisicing est irure proident Duis nisi voluptate.</p>
+                  <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+                </div>
+              </div>
             </div>
-            <label for="inputName">名前</label>
-            <input type="text" name="Name" id="inputName" class="form-control" value="" required="required" pattern="" title="">
-            <label for="inputName">名前</label>
-            <input type="text" name="Name" id="inputName" class="form-control" value="" required="required" pattern="" title="">
-            <label for="inputName">名前</label>
-            <input type="text" name="Name" id="inputName" class="form-control" value="" required="required" pattern="" title="">
-            <label for="inputName">名前</label>
-            <input type="text" name="Name" id="inputName" class="form-control" value="" required="required" pattern="" title="">
-            <button type="submit" class="btn btn-primary center-block">Submit</button>
-        </form>
-        </div>
-        <!-- /.container -->
+            <div class="col-sm-6 col-md-4">
+              <div class="thumbnail">
+                <img src="http://lorempixel.com/400/300/people/2" class="img-responsive" alt="">
+                <div class="caption">
+                  <h3>イシジマ ミキ</h3>
+                  <p>Lorem ipsum Adipisicing ea cillum voluptate eu enim ad in Ut officia in aute adipisicing reprehenderit officia eiusmod dolor elit eiusmod minim tempor commodo nostrud sed ullamco adipisicing est irure proident Duis nisi voluptate.</p>
+                  <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+              <div class="thumbnail">
+                <img src="http://lorempixel.com/400/300/people/3" class="img-responsive" alt="">
+                <div class="caption">
+                  <h3>イシジマ ミキ</h3>
+                  <p>Lorem ipsum Adipisicing ea cillum voluptate eu enim ad in Ut officia in aute adipisicing reprehenderit officia eiusmod dolor elit eiusmod minim tempor commodo nostrud sed ullamco adipisicing est irure proident Duis nisi voluptate.</p>
+                  <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <h2>あなたも参加してみませんか？</h2>
+          <a href="#" class="btn btn-primary btn-lg btn-block">Twitterで会員登録</a>
+        </div><!-- /.container -->
       </section>
+
+      <section id="contact" class="contact">
+        <div class="container">
+          <h2>Contact</h2>
+          <form action="" method="POST" class="form-horizontal" role="form">
+            <div class="row">
+              <div class="col-sm-6">
+                <label for="inputName" class="col-sm-2">Name</label>
+                <input type="text" name="name" id="inputName" class="form-control" value="" required="required" pattern="" title="" placeholder="Miki Ishijima">
+              </div>
+              <div class="col-sm-6">
+                <label for="inputName" class="col-sm-2">Email</label>
+                <input type="email" name="email" id="inputEmail" class="form-control" value="" required="required" title="" placeholder="hogehoge@gmail.com">
+              </div>
+            </div>
+            <textarea name="message" id="inputMessage" class="form-control"></textarea>
+            <button type="submit" class="btn btn-primary pull-right">Submit</button>
+          </form>
+        </div><!-- /.container -->
+      </section>
+
+      <footer>
+        <div class="copyright text-center">&copy The Mars Knowledge Inc.</div>
+        <!-- /.container -->
+      </footer>
 
       <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
