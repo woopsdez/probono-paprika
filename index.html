@@ -9,6 +9,9 @@
   <!-- Bootstrap -->
   <link href="css/bootstrap.css" rel="stylesheet">
   <link href="css/theme.css" rel="stylesheet">
+  <!-- owl-carousel -->
+  <link href="css/owl.carousel.css" rel="stylesheet">
+  <link href="css/owl.theme.css" rel="stylesheet" >
 
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -55,6 +58,33 @@
       <section class="quote">
         <div class="container">
           <blockquote>各分野の専門家が、職業上持っている知識・スキルや経験を活かして社会貢献するボランティア活動全般。<br>また、それに参加する専門家自身。</blockquote>
+        </div>
+      </section>
+
+      <section id="owl-demo">
+        <div class="item">
+          <img src="http://lorempixel.com/287/191/sports" alt="Owl Image">
+        </div>
+        <div class="item">
+          <img src="http://lorempixel.com/287/191/city" alt="Owl Image">
+        </div>
+        <div class="item">
+          <img src="http://lorempixel.com/287/191/food" alt="Owl Image">
+        </div>
+        <div class="item">
+          <img src="http://lorempixel.com/287/191/animals" alt="Owl Image">
+        </div>
+        <div class="item">
+          <img src="http://lorempixel.com/287/191/people" alt="Owl Image">
+        </div>
+        <div class="item">
+          <img src="http://lorempixel.com/287/191/fashion" alt="Owl Image">
+        </div>
+        <div class="item">
+          <img src="http://lorempixel.com/287/191/business" alt="Owl Image">
+        </div>
+        <div class="item">
+          <img src="http://lorempixel.com/287/191/transport" alt="Owl Image">
         </div>
       </section>
 
@@ -177,5 +207,15 @@
 
 
       </script>
+
+      <script src="js/owl.carousel.min.js"></script>
+      <script>
+      $(function(){
+          $('#owl-demo').owlCarousel({
+             items : 3,
+          });
+      });
+      </script>
+
     </body>
     </html>
